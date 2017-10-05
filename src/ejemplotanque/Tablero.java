@@ -84,23 +84,22 @@ public class Tablero extends JPanel implements ActionListener, MouseListener{
         //Cuando se presiona una tecla
         @Override
             public void keyPressed(KeyEvent e) {
-//               int key = e.getKeyCode();
-//
-//               if (key == KeyEvent.VK_LEFT){
-//                   xref -=1;
-//               }
-//
-//               if (key == KeyEvent.VK_DOWN){
-//                   yref +=1;
-//               }
-//
-//               if (key == KeyEvent.VK_RIGHT){
-//                   xref +=1;
-//               }
-//
-//               if (key == KeyEvent.VK_UP){
-//                   yref -=1;
-//               }
+               int key = e.getKeyCode();
+
+               if (key == KeyEvent.VK_LEFT){
+               }
+
+               if (key == KeyEvent.VK_DOWN){
+                   
+               }
+
+               if (key == KeyEvent.VK_RIGHT){
+                   
+               }
+
+               if (key == KeyEvent.VK_UP){
+                   
+               }
             }
         }
     

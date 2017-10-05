@@ -15,6 +15,10 @@ public class Tanque {
     private int angulo;
     private String[] imagenes;
 
+    public void setAngulo(int angulo) {
+        this.angulo = angulo;
+    }
+
     public int getX() {
         return x;
     }
